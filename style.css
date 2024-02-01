@@ -1,0 +1,31 @@
+body{
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgb(54, 175, 175);
+}
+.container{
+    background: rgba(255,255,255, .3);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    box-shadow: 0 10px 10px rgba(0,0,0,.3);
+    margin: 5px;
+   
+}
+.input{
+    padding: 10px 20px;
+    margin: 10px;
+}
+.btn{
+    
+    padding: 10px 20px;
+   
+    margin: 10px;
+    
+    cursor: pointer;
+}
+
